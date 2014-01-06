@@ -1,0 +1,17 @@
+{
+  "name": "monitor",
+  "version": "0.0.1",
+  "private": true,
+  "author": "mofeng <mofeng.lxw@taobao.com>",
+  "description": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "ejs": "*" ,
+     "express-partials": "*" ,
+    "phantomjs": "*",
+    "node-phantom": "*"
+  }
+}

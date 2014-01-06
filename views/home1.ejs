@@ -1,0 +1,24 @@
+<% include header.html %>
+    <h1>  欢迎登陆！！</h1>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>时间</th>
+        <th>label</th>
+        <th>URL</th>
+        <th>onLoad Event</th>
+        <th>oncontentload Event</th>
+        <th>full_load_time</th>
+        <th>start_render_time</th>
+        <th>time_to_first_byte</th>
+        <th>total_size</th>
+        <th>requests</th>
+        <th>ps_scores</th>
+        <th>bad_requests</th>
+    </tr>
+    </thead>
+    <tbody>
+    <%- partial('har', hars) %>
+    </tbody>
+</table>
+<% include footer.html %>

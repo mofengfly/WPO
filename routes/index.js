@@ -12,7 +12,7 @@ var NetSniff = require('./netsniff.js');
 exports.index = function (req, res) {
     var mode = 'url';
 //    var label = req.query[mode];
-    var label = 'http://www.etao.com/';
+    var label = 'http://www.test.com/';
 
     c.mode = mode;
     c.label = label;
